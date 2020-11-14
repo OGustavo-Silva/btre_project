@@ -1,0 +1,18 @@
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+/db.sqlite3
+../db.sqlite3
+/db.sqlite3-journal
+/media
+/static
+
+# Environments
+.venv
+
+
+Python-Django-Dev-To-Deployment-master-20201114T002947Z-001
+Python-Django-Dev-To-Deployment-master-20201114T002947Z-001.zip
