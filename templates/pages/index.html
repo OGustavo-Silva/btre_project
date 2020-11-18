@@ -2,12 +2,19 @@
 
 {% load humanize %}
 
+{% block title %} | Home {% endblock %}
+
 {% block content %}
 
     <!-- Showcase -->
   <section id="showcase">
+    
+      <!--Alerts -->
+     {% include 'partials/_alerts.html' %}
+     
     <div class="container text-center">
       <div class="home-search p-5">
+
         <div class="overlay p-5">
           <h1 class="display-4 mb-4">
             Property Searching Just Got So Easy
